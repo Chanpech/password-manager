@@ -1,0 +1,2 @@
+# Passwords-Manager
+ A secure and user-friendly password manager application built with React for the frontend and Node.js for the backend, designed to help users safely store and manage their passwords. The application uses server-side hashing to sttore sensitive data and offers an intuitive interface for managing credentials across various sites. Dockerized for seamless deployment and scalability, this project showcases best practices in modern web development, including secure data handling, RESTful API design, and containerized application architecture.
