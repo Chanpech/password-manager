@@ -1,20 +1,21 @@
-# Use the official Node.js image from the Docker Hub
-FROM node:18
+# Fetching the minified node image on apline linux
+FROM node:22-alpine3.19
 
-# Set the working directory inside the container
-WORKDIR /app
+# Declaring env
+ENV NODE_ENV development
 
-# Copy package.json and package-lock.json files
-COPY package*.json ./
 
-# Install dependencies
-RUN npm install
+# Setting up the work directory
+WORKDIR /express-docker
 
-# Copy the rest of the application code
+# Copying all the files in our project
 COPY . .
 
-# Expose the port the app runs on
-EXPOSE 5000
+# Installing dependencies
+RUN npm install
 
-# Start the application
-CMD ["node", "index.js"]
+# Starting our application
+CMD [ "node", "index.js" ]
+
+# Exposing server port
+EXPOSE 3050
