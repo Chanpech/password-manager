@@ -3,6 +3,7 @@ A secure and user-friendly password manager application built with React for the
 
 # Dockerized and Deployment
 The application is built and dockerized for easy deployment on Azure Cloud. 
+<br>URLs may be changed due to the free resources allocated by the Azure Cloud</br>
 <ul>
   <li>Frontend: https://secure-temporary-passwords-manager-bsebccdtddfccvdk.eastus-01.azurewebsites.net/</li>
   <li>Backend: https://teseter-password-manager-backend-f4hmejdmhefef4ea.eastus-01.azurewebsites.net/</li>
