@@ -2,7 +2,7 @@
 A secure and user-friendly password manager application built with React for the front end and Node.js for the back end, designed to help users safely store and manage their passwords. The application uses server-side hashing to store sensitive data and offers an intuitive interface for managing credentials across various sites. Dockerized for seamless deployment and scalability, this project showcases best practices in modern web development, including secure data handling, RESTful API design, and containerized application architecture.
 
 # Dockerized and Deployment
-The application is built and dockerized for easy deployment on Azure Cloud. 
+Both frontend and backend applications have been dockerized, built, and pushed to Azure Cloud Registries. Then, we set up a dedicated Web Services Plan and the necessary resource groups using the two registries. Finally, the frontend and backend are individually deployed as a single instance web app.  
 <br>URLs may be changed due to the free resources allocated by the Azure Cloud</br>
 <ul>
   <li>Frontend: https://secure-temporary-passwords-manager-bsebccdtddfccvdk.eastus-01.azurewebsites.net/</li>
